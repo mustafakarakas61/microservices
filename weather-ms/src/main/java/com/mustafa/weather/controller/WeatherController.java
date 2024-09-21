@@ -17,8 +17,12 @@ public class WeatherController {
     }
 
     @GetMapping()
-    public WeatherResponse getWeatherInfo(@RequestParam String city) {
-            return weatherService.getWeather(city);
+    public WeatherResponse getWeatherInfo(@RequestParam String city) throws Exception {
+        if (city == null || city.isEmpty()) {
+            throw new Exception("Please, give a city name");
+        }
+
+        return weatherService.getWeather(city);
     }
 
 }
