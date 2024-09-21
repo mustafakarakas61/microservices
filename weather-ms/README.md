@@ -17,3 +17,5 @@ Bu proje, bir hava durumu servisi sağlayarak kullanıcıların belirli şehirle
 - **Axios**: HTTP istekleri yapmak için kullanılan bir kütüphane.
 - **OpenWeatherMap API**: Hava durumu verilerini sağlamak için kullanılan bir API.
 - **Redis**: Veri önbellekleme için kullanılan bir in-memory veri yapısı sunucusu.
+
+![img.png](img.png)
