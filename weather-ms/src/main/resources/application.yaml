@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: weather
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+app:
+  api-key: ${API_KEY:cb62de3a6ce7509f071c6bf243575ac0}
+  api-url: ${API_URL:https://api.openweathermap.org/data/2.5/weather}
