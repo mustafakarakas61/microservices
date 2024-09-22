@@ -11,7 +11,7 @@
 	<groupId>com.mustafa</groupId>
 	<artifactId>weather-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>weather</name>
 	<description>Weather Application</description>
 	<url/>
